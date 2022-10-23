@@ -1,0 +1,22 @@
+.Board{
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    background-image:
+        linear-gradient(#000 1px, transparent 1px),
+        linear-gradient(90deg, #000 1px, transparent 1px);  
+    border: 1px solid black;
+}
+.Cell {
+    background: green;
+    position: absolute;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.button {
+    margin-left: 12px;
+    cursor: pointer;
+}
